@@ -22,8 +22,8 @@ export default function HeroImage() {
         <Image
           src="/Images/Hero.jpg"
           alt="Rayan Gostar Novin"
-          width={700}
-          height={700}
+          width={800}
+          height={800}
           priority
           className="h-auto w-full max-w-[620px] object-cover"
         />

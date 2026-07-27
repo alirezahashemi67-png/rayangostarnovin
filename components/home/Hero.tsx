@@ -42,7 +42,7 @@ export default function Hero() {
               کیفیت بالا، قیمت مناسب، پشتیبانی حرفه‌ای
             </div>
 
-            <h1 className="text-5xl font-black leading-tight lg:text-7xl">
+            <h1 className="text-4xl md:text-5xl xl:text-6xl">
               خدمات تخصصی
               <span className="block text-blue-500">
                 کامپیوتر، لپ‌تاپ
