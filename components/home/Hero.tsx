@@ -30,7 +30,7 @@ export default function Hero() {
       />
 
       <div className="container relative mx-auto px-6 pt-32 pb-20 lg:pt-40 lg:pb-28">
-        <div className="grid items-center gap-16 lg:grid-cols-2">
+        <div className="grid items-center gap-16 lg:grid-cols-[1fr_1.1fr]">
           {/* Text column — first in DOM = right side in RTL */}
           <motion.div
             initial={{ opacity: 0, y: 35 }}

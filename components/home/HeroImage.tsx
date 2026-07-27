@@ -14,7 +14,7 @@ export default function HeroImage() {
     >
       {/* Glow */}
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="h-[420px] w-[420px] rounded-full bg-blue-600/20 blur-[100px]" />
+        <div className="h-[480px] w-[480px] rounded-full bg-blue-600/20 blur-[110px]" />
       </div>
 
       {/* Image */}
@@ -25,7 +25,7 @@ export default function HeroImage() {
           width={700}
           height={700}
           priority
-          className="h-auto w-full max-w-[520px] object-cover"
+          className="h-auto w-full max-w-[620px] object-cover"
         />
       </div>
 
