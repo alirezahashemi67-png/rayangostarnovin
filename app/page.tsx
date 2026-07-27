@@ -3,6 +3,8 @@ import Hero from "@/components/home/Hero";
 import Services from "@/components/home/Services";
 import WhyChooseUs from "@/components/home/WhyChooseUs";
 import Projects from "@/components/home/Projects";
+import ContactCTA from "@/components/home/ContactCTA";
+import Footer from "@/components/layout/Footer";
 
 export default function Home() {
   return (
@@ -12,6 +14,8 @@ export default function Home() {
       <Services />
       <WhyChooseUs />
       <Projects />
+      <ContactCTA />
+      <Footer />
     </main>
   );
 }
