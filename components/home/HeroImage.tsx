@@ -20,7 +20,7 @@ export default function HeroImage() {
       {/* Image */}
       <div className="relative z-10 overflow-hidden rounded-3xl border border-white/10 bg-slate-900 shadow-2xl">
         <Image
-          src="/images/Hero.jpg"
+          src="/Images/Hero.jpg"
           alt="Rayan Gostar Novin"
           width={700}
           height={700}
