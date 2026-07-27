@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import { ShieldCheck, ArrowLeft } from "lucide-react";
 
 import HeroImage from "./HeroImage";
-import HeroServices from "./HeroServices";
 
 export default function Hero() {
   return (
@@ -52,8 +51,8 @@ export default function Hero() {
             </h1>
 
             <p className="max-w-xl leading-9 text-slate-300">
-              فروش تجهیزات کامپیوتری، تعمیرات تخصصی لپ‌تاپ، اجرای شبکه، نصب
-              دوربین مداربسته و پشتیبانی حرفه‌ای برای منازل و شرکت‌ها.
+              فروش تجهیزات کامپیوتری، اجرای شبکه، نصب دوربین مداربسته و
+              پشتیبانی حرفه‌ای برای منازل و شرکت‌ها.
             </p>
 
             <div className="flex flex-wrap gap-4">
@@ -80,9 +79,6 @@ export default function Hero() {
             <HeroImage />
           </div>
         </div>
-
-        {/* Services preview row */}
-        <HeroServices />
       </div>
     </section>
   );
