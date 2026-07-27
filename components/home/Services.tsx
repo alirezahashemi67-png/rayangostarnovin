@@ -1,18 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Monitor, Laptop, Camera, Network } from "lucide-react";
+import { Monitor, Camera, Network } from "lucide-react";
 
 const services = [
   {
     icon: Monitor,
     title: "فروش کامپیوتر",
     desc: "عرضه انواع کامپیوترهای اداری، گیمینگ و خانگی.",
-  },
-  {
-    icon: Laptop,
-    title: "تعمیر لپ‌تاپ",
-    desc: "تعمیر تخصصی لپ‌تاپ، مادربرد و بازیابی اطلاعات.",
   },
   {
     icon: Camera,
@@ -61,7 +56,7 @@ export default function Services() {
           </p>
         </motion.div>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-6 md:grid-cols-3">
           {services.map((service, index) => (
             <motion.div
               key={service.title}

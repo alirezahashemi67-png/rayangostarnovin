@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { ShieldCheck, ArrowLeft } from "lucide-react";
 
 import HeroImage from "./HeroImage";
-import HeroStats from "./HeroStats";
+import HeroServices from "./HeroServices";
 
 export default function Hero() {
   return (
@@ -81,8 +81,8 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* Stats row */}
-        <HeroStats />
+        {/* Services preview row */}
+        <HeroServices />
       </div>
     </section>
   );
